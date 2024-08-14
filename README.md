@@ -31,3 +31,8 @@ This notebook focuses on image compression using CNN autoencoders and includes t
 - Utilizes the Fashion MNIST dataset.
 - Employs a CNN-based complex autoencoder structure for image compression.
 - Compares the results using plots.
+
+### CV_object_detection_YOLO.ipynb
+This notebook utilizes the YOLOv4 model for object detection in images and videos using the Darknet framework. The following tasks are performed:
+- The Darknet framework is used, which is easier to work with compared to OpenCV.
+- Objects are detected in both images and videos.
