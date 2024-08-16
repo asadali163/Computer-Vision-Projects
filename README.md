@@ -36,3 +36,13 @@ This notebook focuses on image compression using CNN autoencoders and includes t
 This notebook utilizes the YOLOv4 model for object detection in images and videos using the Darknet framework. The following tasks are performed:
 - The Darknet framework is used, which is easier to work with compared to OpenCV.
 - Objects are detected in both images and videos.
+
+### CV_deep_dream.ipynb
+This notebook utilizes the Inception model for creating Deep Dream images. The notebook includes:
+- Using the Inception model as a base.
+- Creating dramatic images, leveraging the fact that the Inception model is trained on the ImageNet dataset.
+
+### CV_neural_transfer.ipynb
+This notebook uses the VGG19 model as a base for style transfer between images. The process involves:
+- Accepting a style image and a content image.
+- Producing a result where the style from the style image is transferred to the content image.
